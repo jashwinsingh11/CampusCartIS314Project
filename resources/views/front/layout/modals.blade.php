@@ -1,4 +1,4 @@
-{{-- Modal Popup --}} 
+{{-- Modal Popup --}}
 
 
 <!-- Dummy Selectbox -->
@@ -72,20 +72,7 @@
                                         <a href="single-product.html">Product Name</a>
                                     </h1>
                                 </div>
-                                <ul class="bread-crumb">
-                                    <li class="has-separator">
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li class="has-separator">
-                                        <a href="shop-v1-root-category.html">Men Clothing </a>
-                                    </li>
-                                    <li class="has-separator">
-                                        <a href="listing.html">Tops</a>
-                                    </li>
-                                    <li class="is-marked">
-                                        <a href="shop-v3-sub-sub-category.html">Hoodies</a>
-                                    </li>
-                                </ul>
+
                                 <div class="product-rating">
                                     <div class='star' title="4.5 out of 5 - based on 23 Reviews">
                                         <span style='width:67px'></span>

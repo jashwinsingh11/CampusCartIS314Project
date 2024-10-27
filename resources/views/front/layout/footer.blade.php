@@ -7,7 +7,7 @@
                 For special offers and other discount information
             </h6>
             <h1>
-                Subscribe to our Newsletter
+                Subscribe to our CampusCart Newsletter
             </h1>
             <p>
                 Subscribe to the mailing list to receive updates on promotions, new arrivals, discount and coupons.
@@ -15,10 +15,10 @@
 
 
 
-            
+
             <form class="newsletter-form">
                 <label class="sr-only" for="subscriber_email">Enter your Email</label>
-                <input type="text" placeholder="Your Email Address" id="subscriber_email" name="subscriber_email" required> {{-- We'll use the HTML id Global Attribute in jQuery in front/js/custom.js --}} 
+                <input type="text" placeholder="Your Email Address" id="subscriber_email" name="subscriber_email" required> {{-- We'll use the HTML id Global Attribute in jQuery in front/js/custom.js --}}
                 <button type="button" class="button" onclick="addSubscriber()">SUBMIT</button> {{-- Check the addSubscriber() function in front/js/custom.js. We'll use it in conjunction with the    id="subscriber_email"    of the <input> field --}}
             </form>
 
@@ -33,11 +33,11 @@
                     <div class="footer-list">
                         <h6>COMPANY</h6>
                         <ul>
-                            
+
                             <li>
                                 <a href="{{ url('contact') }}">Contact Us</a>
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -46,13 +46,13 @@
                         <h6>COLLECTION</h6>
                         <ul>
                             <li>
-                                <a href="{{ url('men') }}">Men Clothing</a>
+                                <a href="{{ url('men') }}">Books</a>
                             </li>
                             <li>
-                                <a href="{{ url('women') }}">Women Clothing</a>
+                                <a href="{{ url('women') }}">Electronics</a>
                             </li>
                             <li>
-                                <a href="{{ url('kids') }}">Kids Clothing</a>
+                                <a href="{{ url('kids') }}">Services</a>
                             </li>
                         </ul>
                     </div>
@@ -76,12 +76,12 @@
                         <ul>
                             <li>
                                 <i class="fas fa-location-arrow u-s-m-r-9"></i>
-                                <span>Campus Cart</span>
+                                <span>CampusCart</span>
                             </li>
                             <li>
                                 <a href="tel:+201255845857">
                                 <i class="fas fa-phone u-s-m-r-9"></i>
-                                <span>+01255845857</span>
+                                <span>+6799609530</span>
                                 </a>
                             </li>
                             <li>

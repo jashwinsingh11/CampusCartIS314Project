@@ -30,7 +30,7 @@
                         <h1 class="contact-h1">Get In Touch With Us</h1>
 
 
-                        {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}    
+                        {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}
                         {{-- Determining If An Item Exists In The Session (using has() method): https://laravel.com/docs/9.x/session#determining-if-an-item-exists-in-the-session --}}
                         @if (Session::has('error_message')) <!-- Check AdminController.php, updateAdminPassword() method -->
                             <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -43,7 +43,7 @@
 
 
 
-                        {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}    
+                        {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}
                         @if ($errors->any())
                             <div class="alert alert-danger alert-dismissible fade show" role="alert">
 
@@ -58,7 +58,7 @@
                         @endif
 
 
-                        {{-- Displaying The Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors AND https://laravel.com/docs/9.x/blade#validation-errors --}} 
+                        {{-- Displaying The Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors AND https://laravel.com/docs/9.x/blade#validation-errors --}}
                         {{-- Determining If An Item Exists In The Session (using has() method): https://laravel.com/docs/9.x/session#determining-if-an-item-exists-in-the-session --}}
                         {{-- Our Bootstrap success message in case of updating admin password is successful: --}}
                         {{-- Displaying Success Message --}}
@@ -110,17 +110,17 @@
                     <div class="information-about-wrapper">
                         <h1 class="contact-h1">Information About Us</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, tempora, voluptate. Architecto aspernatur, culpa cupiditate deserunt dolore eos facere in, incidunt omnis quae quam quos, similique sunt tempore vel vero.
+                            Thank you for visiting our university marketplace! We are excited to provide a platform where students and staff can buy and sell a variety of items, including university supplies, laptops, electronics, and gadgets. Whether you're looking to find the perfect textbook at a great price or sell your old laptop to make room for a new one, our community is here to help. We believe in fostering a collaborative environment that benefits everyone on campus, making it easier to connect and exchange valuable resources.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, tempora, voluptate. Architecto aspernatur, culpa cupiditate deserunt dolore eos facere in, incidunt omnis quae quam quos, similique sunt tempore vel vero.
+                            If you have any questions, suggestions, or need assistance navigating the site, please don't hesitate to reach out. You can contact us via email at   info@campuscart.com or fill out the contact form below. Our dedicated team is here to ensure your experience is smooth and enjoyable. Join us in building a vibrant marketplace that enhances our university community!
                         </p>
                     </div>
                     <div class="contact-us-wrapper">
                         <h1 class="contact-h1">Contact Us</h1>
                         <div class="contact-material u-s-m-b-16">
                             <h6>Location</h6>
-                            <span>10 Salah Salem St.</span>
+                            <span>Laucala Bay.</span>
                             <span>Suva, Fiji</span>
                         </div>
                         <div class="contact-material u-s-m-b-16">
@@ -129,7 +129,7 @@
                         </div>
                         <div class="contact-material u-s-m-b-16">
                             <h6>Telephone</h6>
-                            <span>+201122237359</span>
+                            <span>+6799609530</span>
                         </div>
                     </div>
                 </div>

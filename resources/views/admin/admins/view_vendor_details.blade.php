@@ -59,7 +59,7 @@
                                 <input type="text" class="form-control" value="{{ $vendorDetails['vendor_personal']['country'] }}" readonly> {{-- $vendorDetails was passed from AdminController --}}
                             </div>
                             <div class="form-group">
-                                <label for="vendor_pincode">Pincode</label>
+                                <label for="vendor_pincode">Tin Number</label>
                                 <input type="text" class="form-control" value="{{ $vendorDetails['vendor_personal']['pincode'] }}" readonly> {{-- $vendorDetails was passed from AdminController --}}
                             </div>
                             <div class="form-group">
@@ -121,11 +121,11 @@
                                 <input class="form-control"  @if (isset($vendorDetails['vendor_business']['business_license_number'])) value="{{ $vendorDetails['vendor_business']['business_license_number'] }}" @endif  readonly> <!-- Check updateAdminPassword() method in AdminController.php -->
                             </div>
                             <div class="form-group">
-                                <label>GST Number</label>
+                                <label>TIN Number</label>
                                 <input class="form-control"  @if (isset($vendorDetails['vendor_business']['gst_number'])) value="{{ $vendorDetails['vendor_business']['gst_number'] }}" @endif  readonly> <!-- Check updateAdminPassword() method in AdminController.php -->
                             </div>
                             <div class="form-group">
-                                <label>PAN Number</label>
+                                <label>Business Number</label>
                                 <input class="form-control"  @if (isset($vendorDetails['vendor_business']['pan_number'])) value="{{ $vendorDetails['vendor_business']['pan_number'] }}" @endif  readonly> <!-- Check updateAdminPassword() method in AdminController.php -->
                             </div>
                             <div class="form-group">
@@ -158,10 +158,6 @@
                                 <label for="vendor_address">Account Number</label>
                                 <input type="text" class="form-control"  @if (isset($vendorDetails['vendor_bank']['account_number'])) value="{{ $vendorDetails['vendor_bank']['account_number'] }}" @endif  readonly> {{-- $vendorDetails was passed from AdminController --}}
                             </div>
-                            <div class="form-group">
-                                <label for="vendor_city">Bank IFSC Code</label>
-                                <input type="text" class="form-control"  @if (isset($vendorDetails['vendor_bank']['bank_ifsc_code'])) value="{{ $vendorDetails['vendor_bank']['bank_ifsc_code'] }}" @endif  readonly> {{-- $vendorDetails was passed from AdminController --}}
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,7 +181,7 @@
                             </div>
                             @endif
 
-                            {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}    
+                            {{-- Displaying Laravel Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors --}}
                             @if ($errors->any())
                             <div class="alert alert-danger alert-dismissible fade show" role="alert">
 

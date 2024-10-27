@@ -10,7 +10,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Shipping Charges</h4>
-                            
+
 
 
                             {{-- Displaying The Validation Errors: https://laravel.com/docs/9.x/validation#quick-displaying-the-validation-errors AND https://laravel.com/docs/9.x/blade#validation-errors --}}
@@ -92,7 +92,7 @@
         <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2022. All rights reserved.</span>
+                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">CampusCart © 2024. All rights reserved.</span>
             </div>
         </footer>
         <!-- partial -->
