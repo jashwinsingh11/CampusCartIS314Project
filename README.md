@@ -1,5 +1,6 @@
-![View 2](https://github.com/user-attachments/assets/089ace48-8ef2-451b-85c4-11b555521ef1)CampusCart
 CampusCart is a web-based marketplace application developed for students within campus communities. It provides a secure and easy-to-use platform where students can buy, sell, and trade products and services, aiming to make campus commerce more efficient and accessible.
+
+![View 2](https://github.com/user-attachments/assets/089ace48-8ef2-451b-85c4-11b555521ef1)CampusCart
 
 ![View 1](https://github.com/user-attachments/assets/adfcadca-6afa-410a-aa58-58aa04ec4069)
 
