@@ -1,14 +1,12 @@
 CampusCart is a web-based marketplace application developed for students within campus communities. It provides a secure and easy-to-use platform where students can buy, sell, and trade products and services, aiming to make campus commerce more efficient and accessible.
 
-![View 2](https://github.com/user-attachments/assets/089ace48-8ef2-451b-85c4-11b555521ef1)CampusCart
+![View 1](https://github.com/user-attachments/assets/f808c241-36f3-4928-8b56-67e9bc086d14)
 
-![View 1](https://github.com/user-attachments/assets/adfcadca-6afa-410a-aa58-58aa04ec4069)
+![View 2](https://github.com/user-attachments/assets/bbc94334-39f6-4858-ab37-df98fb222a7e)
 
-![View 2](https://github.com/user-attachments/assets/246429b3-d20f-4d64-9cba-a10d53edebac)
+![Vendor](https://github.com/user-attachments/assets/5182a304-1e55-44f1-b73e-1265bb1913a2)
 
-![View 2](https://github.com/user-attachments/assets/1024be35-289a-42d8-a403-1935fe028d68)
-
-![Admin](https://github.com/user-attachments/assets/1ec86091-2a82-4413-8149-65b8b470fc22)
+![Admin](https://github.com/user-attachments/assets/d83f3b4f-72f3-4f01-98ac-ddce6971f5cd)
 
 Technology Stack
 Frontend: HTML, CSS, JavaScript
